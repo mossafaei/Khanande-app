@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1861F6A01BA0869B004110AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861F69F1BA0869B004110AC /* main.m */; };
+		1861F6A31BA0869B004110AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861F6A21BA0869B004110AC /* AppDelegate.m */; };
+		1861F6A61BA0869B004110AC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861F6A51BA0869B004110AC /* MasterViewController.m */; };
+		1861F6A91BA0869B004110AC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861F6A81BA0869B004110AC /* DetailViewController.m */; };
+		1861F6AC1BA0869B004110AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1861F6AA1BA0869B004110AC /* Main.storyboard */; };
+		1861F6AE1BA0869B004110AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1861F6AD1BA0869B004110AC /* Images.xcassets */; };
+		1861F6B11BA0869B004110AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1861F6AF1BA0869B004110AC /* LaunchScreen.xib */; };
+		1861F6BD1BA0869B004110AC /* Khanande_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861F6BC1BA0869B004110AC /* Khanande_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1861F6B71BA0869B004110AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1861F6921BA0869B004110AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1861F6991BA0869B004110AC;
+			remoteInfo = "Khanande App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1861F69A1BA0869B004110AC /* Khanande App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khanande App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1861F69E1BA0869B004110AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1861F69F1BA0869B004110AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1861F6A11BA0869B004110AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1861F6A21BA0869B004110AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1861F6A41BA0869B004110AC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1861F6A51BA0869B004110AC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1861F6A71BA0869B004110AC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1861F6A81BA0869B004110AC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1861F6AB1BA0869B004110AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1861F6AD1BA0869B004110AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1861F6B01BA0869B004110AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1861F6B61BA0869B004110AC /* Khanande AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khanande AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1861F6BB1BA0869B004110AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1861F6BC1BA0869B004110AC /* Khanande_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Khanande_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1861F6971BA0869B004110AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1861F6B31BA0869B004110AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1861F6911BA0869B004110AC = {
+			isa = PBXGroup;
+			children = (
+				1861F69C1BA0869B004110AC /* Khanande App */,
+				1861F6B91BA0869B004110AC /* Khanande AppTests */,
+				1861F69B1BA0869B004110AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1861F69B1BA0869B004110AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1861F69A1BA0869B004110AC /* Khanande App.app */,
+				1861F6B61BA0869B004110AC /* Khanande AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1861F69C1BA0869B004110AC /* Khanande App */ = {
+			isa = PBXGroup;
+			children = (
+				1861F6A11BA0869B004110AC /* AppDelegate.h */,
+				1861F6A21BA0869B004110AC /* AppDelegate.m */,
+				1861F6A41BA0869B004110AC /* MasterViewController.h */,
+				1861F6A51BA0869B004110AC /* MasterViewController.m */,
+				1861F6A71BA0869B004110AC /* DetailViewController.h */,
+				1861F6A81BA0869B004110AC /* DetailViewController.m */,
+				1861F6AA1BA0869B004110AC /* Main.storyboard */,
+				1861F6AD1BA0869B004110AC /* Images.xcassets */,
+				1861F6AF1BA0869B004110AC /* LaunchScreen.xib */,
+				1861F69D1BA0869B004110AC /* Supporting Files */,
+			);
+			path = "Khanande App";
+			sourceTree = "<group>";
+		};
+		1861F69D1BA0869B004110AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1861F69E1BA0869B004110AC /* Info.plist */,
+				1861F69F1BA0869B004110AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1861F6B91BA0869B004110AC /* Khanande AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1861F6BC1BA0869B004110AC /* Khanande_AppTests.m */,
+				1861F6BA1BA0869B004110AC /* Supporting Files */,
+			);
+			path = "Khanande AppTests";
+			sourceTree = "<group>";
+		};
+		1861F6BA1BA0869B004110AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1861F6BB1BA0869B004110AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1861F6991BA0869B004110AC /* Khanande App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1861F6C01BA0869B004110AC /* Build configuration list for PBXNativeTarget "Khanande App" */;
+			buildPhases = (
+				1861F6961BA0869B004110AC /* Sources */,
+				1861F6971BA0869B004110AC /* Frameworks */,
+				1861F6981BA0869B004110AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Khanande App";
+			productName = "Khanande App";
+			productReference = 1861F69A1BA0869B004110AC /* Khanande App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1861F6B51BA0869B004110AC /* Khanande AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1861F6C31BA0869B004110AC /* Build configuration list for PBXNativeTarget "Khanande AppTests" */;
+			buildPhases = (
+				1861F6B21BA0869B004110AC /* Sources */,
+				1861F6B31BA0869B004110AC /* Frameworks */,
+				1861F6B41BA0869B004110AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1861F6B81BA0869B004110AC /* PBXTargetDependency */,
+			);
+			name = "Khanande AppTests";
+			productName = "Khanande AppTests";
+			productReference = 1861F6B61BA0869B004110AC /* Khanande AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1861F6921BA0869B004110AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "___MostafaSafaeipour___";
+				TargetAttributes = {
+					1861F6991BA0869B004110AC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1861F6B51BA0869B004110AC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1861F6991BA0869B004110AC;
+					};
+				};
+			};
+			buildConfigurationList = 1861F6951BA0869B004110AC /* Build configuration list for PBXProject "Khanande App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1861F6911BA0869B004110AC;
+			productRefGroup = 1861F69B1BA0869B004110AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1861F6991BA0869B004110AC /* Khanande App */,
+				1861F6B51BA0869B004110AC /* Khanande AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1861F6981BA0869B004110AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1861F6AC1BA0869B004110AC /* Main.storyboard in Resources */,
+				1861F6B11BA0869B004110AC /* LaunchScreen.xib in Resources */,
+				1861F6AE1BA0869B004110AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1861F6B41BA0869B004110AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1861F6961BA0869B004110AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1861F6A31BA0869B004110AC /* AppDelegate.m in Sources */,
+				1861F6A61BA0869B004110AC /* MasterViewController.m in Sources */,
+				1861F6A01BA0869B004110AC /* main.m in Sources */,
+				1861F6A91BA0869B004110AC /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1861F6B21BA0869B004110AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1861F6BD1BA0869B004110AC /* Khanande_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1861F6B81BA0869B004110AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1861F6991BA0869B004110AC /* Khanande App */;
+			targetProxy = 1861F6B71BA0869B004110AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1861F6AA1BA0869B004110AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1861F6AB1BA0869B004110AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1861F6AF1BA0869B004110AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1861F6B01BA0869B004110AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1861F6BE1BA0869B004110AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1861F6BF1BA0869B004110AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1861F6C11BA0869B004110AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Khanande App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1861F6C21BA0869B004110AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Khanande App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1861F6C41BA0869B004110AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Khanande AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khanande App.app/Khanande App";
+			};
+			name = Debug;
+		};
+		1861F6C51BA0869B004110AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Khanande AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khanande App.app/Khanande App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1861F6951BA0869B004110AC /* Build configuration list for PBXProject "Khanande App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1861F6BE1BA0869B004110AC /* Debug */,
+				1861F6BF1BA0869B004110AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1861F6C01BA0869B004110AC /* Build configuration list for PBXNativeTarget "Khanande App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1861F6C11BA0869B004110AC /* Debug */,
+				1861F6C21BA0869B004110AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1861F6C31BA0869B004110AC /* Build configuration list for PBXNativeTarget "Khanande AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1861F6C41BA0869B004110AC /* Debug */,
+				1861F6C51BA0869B004110AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1861F6921BA0869B004110AC /* Project object */;
+}
