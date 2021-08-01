@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import <AVFoundation/AVFoundation.h>
+#import "Reachability.h"
+#import <AFNetworking/AFNetworking.h>
+#import "PAViewController.h"
+#import <SWRevealViewController/SWRevealViewController.h>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
-
+- (BOOL)connected;
 @end
 

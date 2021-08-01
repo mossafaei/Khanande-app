@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="160" id="Xlt-6G-agM" customClass="SimpleTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xlt-6G-agM" id="ih6-1m-70N">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="159.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZFv-up-vMF">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="it7-Bk-MLV">
+                        <rect key="frame" x="33" y="32" width="95" height="95"/>
+                        <state key="normal" title="Button" image="play-button-black.png">
+                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hKy-1s-Imu">
+                        <rect key="frame" x="160" y="0.0" width="160" height="160"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="hKy-1s-Imu" secondAttribute="height" multiplier="1:1" id="TRO-GU-g6T"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roy-w1-dVY">
+                        <rect key="frame" x="193" y="32" width="95" height="95"/>
+                        <state key="normal" title="Button" image="play-button-black.png">
+                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hKy-1s-Imu" firstAttribute="leading" secondItem="ZFv-up-vMF" secondAttribute="trailing" id="4kQ-l9-UCy"/>
+                    <constraint firstAttribute="bottom" secondItem="ZFv-up-vMF" secondAttribute="bottom" constant="1" id="9FJ-kJ-Igo"/>
+                    <constraint firstAttribute="bottom" secondItem="hKy-1s-Imu" secondAttribute="bottom" constant="1" id="CMR-bX-Cfd"/>
+                    <constraint firstItem="hKy-1s-Imu" firstAttribute="leading" secondItem="ZFv-up-vMF" secondAttribute="trailing" id="DYe-Au-Cpu"/>
+                    <constraint firstItem="roy-w1-dVY" firstAttribute="top" secondItem="ih6-1m-70N" secondAttribute="top" constant="32" id="Gvd-k9-cVh"/>
+                    <constraint firstAttribute="trailing" secondItem="hKy-1s-Imu" secondAttribute="trailing" id="JEn-Z1-aDl"/>
+                    <constraint firstAttribute="bottom" secondItem="roy-w1-dVY" secondAttribute="bottom" constant="32" id="RRM-AY-pzw"/>
+                    <constraint firstItem="hKy-1s-Imu" firstAttribute="top" secondItem="ih6-1m-70N" secondAttribute="top" id="RZq-Oh-TBQ"/>
+                    <constraint firstItem="ZFv-up-vMF" firstAttribute="top" secondItem="ih6-1m-70N" secondAttribute="top" id="Vqq-bw-gGC"/>
+                    <constraint firstItem="hKy-1s-Imu" firstAttribute="leading" secondItem="it7-Bk-MLV" secondAttribute="trailing" constant="32" id="Wh3-Yp-zJc"/>
+                    <constraint firstItem="ZFv-up-vMF" firstAttribute="leading" secondItem="ih6-1m-70N" secondAttribute="leading" id="eho-Mt-TX4"/>
+                    <constraint firstItem="it7-Bk-MLV" firstAttribute="top" secondItem="ih6-1m-70N" secondAttribute="top" constant="32" id="rGe-H9-NFc"/>
+                    <constraint firstAttribute="bottom" secondItem="it7-Bk-MLV" secondAttribute="bottom" constant="32" id="rO6-pg-Hz2"/>
+                    <constraint firstAttribute="trailing" secondItem="roy-w1-dVY" secondAttribute="trailing" constant="32" id="tQo-mq-4ua"/>
+                    <constraint firstItem="roy-w1-dVY" firstAttribute="leading" secondItem="ZFv-up-vMF" secondAttribute="trailing" constant="33" id="wdK-3K-4eP"/>
+                    <constraint firstItem="it7-Bk-MLV" firstAttribute="leading" secondItem="ih6-1m-70N" secondAttribute="leading" constant="33" id="z6R-yf-mcy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="buttoncell1" destination="it7-Bk-MLV" id="TBn-Tb-vD2"/>
+                <outlet property="buttoncell2" destination="roy-w1-dVY" id="0ze-xd-5dZ"/>
+                <outlet property="imagecell1" destination="ZFv-up-vMF" id="I10-Yz-fCk"/>
+                <outlet property="imagecell2" destination="hKy-1s-Imu" id="DUS-BQ-oXS"/>
+            </connections>
+            <point key="canvasLocation" x="423" y="250"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="play-button-black.png" width="1024" height="1024"/>
+    </resources>
+</document>

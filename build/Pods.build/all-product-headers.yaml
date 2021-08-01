@@ -1,0 +1,361 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AFAutoPurgingImageCache.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPSessionManager.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFImageDownloader.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkReachabilityManager.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-Swift.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-umbrella.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFSecurityPolicy.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLRequestSerialization.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLResponseSerialization.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLSessionManager.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIActivityIndicatorView+AFNetworking.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+AFNetworking.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+AFNetworking.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+AFNetworking.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIKit+AFNetworking.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+AFNetworking.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIRefreshControl+AFNetworking.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIWebView+AFNetworking.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/AFNetworking/AFNetworking.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Pods.build/Debug-iphoneos/AFNetworking.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Canvas/Canvas.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CSAnimation.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/CSAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "CSAnimationView.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/CSAnimationView.h"
+        },
+        {
+          'type': 'file',
+          'name': "CSBlurView.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/CSBlurView.h"
+        },
+        {
+          'type': 'file',
+          'name': "CSNavigationController.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/CSNavigationController.h"
+        },
+        {
+          'type': 'file',
+          'name': "Canvas-Swift.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Canvas/Canvas.framework/Headers/Canvas-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Canvas-umbrella.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Target Support Files/Canvas/Canvas-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Canvas.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/Canvas.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+TCCustomFont.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/UIButton+TCCustomFont.h"
+        },
+        {
+          'type': 'file',
+          'name': "UILabel+TCCustomFont.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/UILabel+TCCustomFont.h"
+        },
+        {
+          'type': 'file',
+          'name': "UINavigationBar+TCCustomFont.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/UINavigationBar+TCCustomFont.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITextField+PlaceholderColor.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/UITextField+PlaceholderColor.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITextField+TCCustomFont.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/UITextField+TCCustomFont.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITextView+TCCustomFont.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Canvas/CanvasLibrary/UITextView+TCCustomFont.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Canvas/Canvas.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Pods.build/Debug-iphoneos/Canvas.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Masonry/Masonry.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MASCompositeConstraint.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/MASCompositeConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraint+Private.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/MASConstraint+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraint.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/MASConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraintMaker.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/MASConstraintMaker.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASLayoutConstraint.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/MASLayoutConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASUtilities.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/MASUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASViewAttribute.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/MASViewAttribute.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASViewConstraint.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/MASViewConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry-Swift.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Masonry/Masonry.framework/Headers/Masonry-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry-umbrella.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Target Support Files/Masonry/Masonry-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/Masonry.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+MASAdditions.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/NSArray+MASAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+MASShorthandAdditions.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/NSArray+MASShorthandAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSLayoutConstraint+MASDebugAdditions.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "View+MASAdditions.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/View+MASAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "View+MASShorthandAdditions.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/View+MASShorthandAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "ViewController+MASAdditions.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Masonry/Masonry/ViewController+MASAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Masonry/Masonry.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Pods.build/Debug-iphoneos/Masonry.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Pods_Khanande.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Khanande-umbrella.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Target Support Files/Pods-Khanande/Pods-Khanande-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Khanande-Swift.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Pods_Khanande.framework/Headers/Pods_Khanande-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Pods_Khanande.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Pods.build/Debug-iphoneos/Pods-Khanande.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Pods_KhanandeTests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-KhanandeTests-umbrella.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/Pods/Target Support Files/Pods-KhanandeTests/Pods-KhanandeTests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_KhanandeTests-Swift.h",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Pods_KhanandeTests.framework/Headers/Pods_KhanandeTests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Desktop/Khanande App/build/Debug-iphoneos/Pods_KhanandeTests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Desktop/Khanande App/build/Pods.build/Debug-iphoneos/Pods-KhanandeTests.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
